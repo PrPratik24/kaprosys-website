@@ -17,7 +17,16 @@ body {
 }
 
 .logo {
-    height: 90px;
+    height: 70px;
+    width: auto;
+    object-fit: contain;
+    
+    /* IMPORTANT FIX */
+    background-color: transparent;
+    filter: brightness(1.2) contrast(1.2);
+
+    /* Optional for visibility */
+    padding: 5px;
 }
 
 /* NAV */
