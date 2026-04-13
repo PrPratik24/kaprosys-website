@@ -5,10 +5,9 @@ body {
 
 /* HEADER */
 .main-header {
-    background: #4A5A63;
-    color: white;
+    background: white;
+    color: black;
 }
-
 .top-bar {
     display: flex;
     align-items: center;
@@ -18,16 +17,7 @@ body {
 
 .logo {
     height: 75px;
-    width: auto;
-    object-fit: contain;
-
-    /* FIX VISIBILITY */
-    background: white;
-    padding: 6px 10px;
-    border-radius: 6px;
-
-    /* subtle professional look */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    filter: brightness(0) invert(1);
 }
 /* NAV */
 .nav-bar {
