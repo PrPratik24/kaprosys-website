@@ -17,18 +17,18 @@ body {
 }
 
 .logo {
-    height: 70px;
+    height: 75px;
     width: auto;
     object-fit: contain;
-    
-    /* IMPORTANT FIX */
-    background-color: transparent;
-    filter: brightness(1.2) contrast(1.2);
 
-    /* Optional for visibility */
-    padding: 5px;
+    /* FIX VISIBILITY */
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+
+    /* subtle professional look */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
-
 /* NAV */
 .nav-bar {
     display: flex;
