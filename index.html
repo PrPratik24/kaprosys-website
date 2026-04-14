@@ -69,12 +69,24 @@
     <div class="contact-container">
 
         <div class="contact-form">
-            <h2>Contact Us</h2>
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <textarea placeholder="Your Message"></textarea>
-            <button>Send Message</button>
-        </div>
+    <h2>Contact Us</h2>
+
+    <form action="https://formsubmit.co/prpratik24@gmail.com" method="POST">
+
+        <input type="text" name="name" placeholder="Your Name" required>
+
+        <input type="email" name="email" placeholder="Your Email" required>
+
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+
+        <!-- Optional -->
+        <input type="hidden" name="_subject" value="New Message from Kaprosys Website">
+        <input type="hidden" name="_captcha" value="false">
+
+    </form>
+</div>
 
         <div class="contact-info">
             <h2>Our Location</h2>
